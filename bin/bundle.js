@@ -6,8 +6,8 @@ var bundle = require('../index.js');
 program
   .version('0.0.1')
   .description('bundle static packages')
-  .option('-api, --api [api]', 'checkupdate api')
-  .option('-dir, --dir [dir]', 'destination path, defaults to pwd')
+  .option('-a, --api [api]', 'checkupdate api')
+  .option('-d, --dir [dir]', 'destination path, defaults to pwd')
   .parse(process.argv);
 
 
