@@ -1,10 +1,10 @@
 {
   "name": "efte-bundler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "efte bundler",
   "main": "index.js",
   "bin": {
-    "efb": "./bin/bundler.js"
+    "efb": "./bin/bundle.js"
   },
   "scripts": {
   },
