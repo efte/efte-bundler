@@ -1,0 +1,25 @@
+{
+  "name": "efte-bundler",
+  "version": "0.1.0",
+  "description": "efte bundler",
+  "main": "index.js",
+  "bin": {
+    "efb": "./bin/bundler.js"
+  },
+  "scripts": {
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ltebean",
+    "email": "yucong1118@gmail.com"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "http-get": "^0.5.10",
+    "request": "^2.39.0",
+    "mkdirp": "^0.5.0",
+    "fs-extra": "^0.10.0",
+    "inquirer": "^0.5.1",
+    "commander": "^2.3.0"
+  }
+}
