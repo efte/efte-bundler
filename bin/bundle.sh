@@ -4,6 +4,6 @@ localPath=$1
 destPath=$2
 
 cd "$localPath"
-zip -r localpackage.zip * 
+zip -r localpackages.zip * 
 
-cp localpackage.zip "$destPath"
+cp localpackages.zip "$destPath"
